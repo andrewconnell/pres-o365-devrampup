@@ -1,0 +1,25 @@
+﻿@model IDictionary<string, Microsoft.Office365.Discovery.CapabilityDiscoveryResult>
+         
+<h2>Discovery Service Response</h2>
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Office 365 API Service</th>
+      <th>Resource ID</th>
+      <th>Endpoint URL</th>
+      <th>Version></th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+      <tr>
+        <td>@item.Key</td>
+        <td>@item.Value.ServiceResourceId</td>
+        <td>@item.Value.ServiceEndpointUri</td>
+        <td>@item.Value.ServiceApiVersion</td>
+      </tr>
+    }
+  </tbody>
+</table>

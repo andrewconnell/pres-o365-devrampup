@@ -1,0 +1,72 @@
+{
+  "allowActAsForAllClients": null,
+  "appId": "55ef2d97-3f27-4a85-be9a-7e27ae326920",
+  "appMetadata": {
+    "version": 0,
+    "data": []
+  },
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "displayName": "O365AppOnly",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": "https://locahost:44304/Home",
+  "identifierUris": [
+    "https://pluralsighto365apis.onmicrosoft.com/O365AppOnly"
+  ],
+  "keyCredentials": [{
+    "customKeyIdentifier":"4q/hjDPzT/a+Ky1CfBhmSLQYaq0=",
+    "keyId":"77712f1f-5549-4ff1-b5a1-3bb10628fc00",
+    "type":"AsymmetricX509Cert",
+    "usage":"Verify",
+    "value":"MIIDLDCCAhigAwIBAgIQQ6x1RhlKkZ9Lfwz1VVdQhzAJBgUrDgMCHQUAMCcxJTAjBgNVBAMTHFBsdXJhbHNpZ2h0IE8zNjVBcHBPbmx5IENlcnQwHhcNMTUwMTAxMDUwMDAwWhcNMTYwMTAxMDUwMDAwWjAnMSUwIwYDVQQDExxQbHVyYWxzaWdodCBPMzY1QXBwT25seSBDZXJ0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzAe2XyYsPGlnBB9eOKKGuuAM4SzUMmzka5kdk6cHMn/6rmW59hWaxJGg0jOXU8M57lNXD6hEFqccB1JmzYc7GlV91pAk/hDFpVjSEXVETa7fMMONaLEpgg3bQSi7Zn4fERrqrp5YS63YkQtkyVTsvIrxJThLlSXWlyqJ8a3Oa73Xu9IwBEQAu+SL17VtJEuCb6PZMjo9d99Ch6cKqTk49AA7wcxoSanzXwn53IDm+nizXYxnm4jTs8qhA/AHbsbXGrdQzRlaSvj/Tucm8G0jIRdMjSRjg4XUWthLToZnZ/35ROxVxHARohS2rr2kyNMzz7f0gl8vg0KYQhmTUCfsOQIDAQABo1wwWjBYBgNVHQEEUTBPgBAVsBkRB4AnSa+oIe5LPbVhoSkwJzElMCMGA1UEAxMcUGx1cmFsc2lnaHQgTzM2NUFwcE9ubHkgQ2VydIIQQ6x1RhlKkZ9Lfwz1VVdQhzAJBgUrDgMCHQUAA4IBAQAmGkO4ZJfNqFFwhodOGjScvjqcy1tskETupKVN407JhbpPejbkz6A/o9rYCNZ6XWb2drcrtZUSiUq9uzuystBm7Cbtw8BbMJnPsaPiE0htEZ/vVqXr+Oe0PlkjO9xtoBQjIm13ak0PpUr0vstTjhNN37xHirz2sB8STDyMzatak25hMarHPR6HhpkF6EENc2bAGnqlP+UMmQBiPeOMbFf/FFVx9M4Mq8kn1erNnOUwN/4RuMIlqD+rddjuAA1DFeSi3koQMafONdeaPSPRL+Rd+jKEzuFivIBcKyVj2zftTzv61tOH0VMHPO2KgKZiFhGI9pAODp16jk4KpoD57en0"
+    }],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access O365AppOnly on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access O365AppOnly",
+      "id": "c8c1396b-9a7f-4e24-a465-46b00d38c836",
+      "isEnabled": true,
+      "origin": "Application",
+      "type": "User",
+      "userConsentDescription": "Allow the application to access O365AppOnly on your behalf.",
+      "userConsentDisplayName": "Access O365AppOnly",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "passwordCredentials": [],
+  "publicClient": null,
+  "replyUrls": [
+    "https://locahost:44304/Home"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null,
+  "defaultPolicy": [],
+  "extensionProperties": [],
+  "objectType": "Application",
+  "objectId": "d6a730ac-b9fa-4a77-b8ae-f055095c7c19",
+  "deletionTimestamp": null,
+  "createdOnBehalfOf": null,
+  "createdObjects": [],
+  "manager": null,
+  "directReports": [],
+  "members": [],
+  "memberOf": [],
+  "owners": [],
+  "ownedObjects": []
+}
