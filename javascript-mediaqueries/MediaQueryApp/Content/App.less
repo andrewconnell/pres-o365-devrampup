@@ -1,0 +1,123 @@
+﻿@fontSize: 20pt;
+@color: #0094ff;
+
+.show {
+    font-size:@fontSize;
+    color:@color;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    visibility: visible;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+@media (max-width: 2000px) {
+    .gigantic {
+        .show;
+    }
+
+    .large {
+        .hide;
+    }
+
+    .medium {
+        .hide;
+    }
+
+    .small {
+        .hide;
+    }
+
+    .tiny {
+        .hide;
+    }
+}
+
+@media (max-width: 1000px) {
+    .gigantic {
+        .hide;
+    }
+
+    .large {
+        .show;
+    }
+
+    .medium {
+        .hide;
+    }
+
+    .small {
+        .hide;
+    }
+
+    .tiny {
+        .hide;
+    }
+}
+
+@media (max-width: 800px) {
+    .gigantic {
+        .hide;
+    }
+
+    .large {
+        .hide;
+    }
+
+    .medium {
+        .show;
+    }
+
+    .small {
+        .hide;
+    }
+
+    .tiny {
+        .hide;
+    }
+}
+
+@media (max-width: 600px) {
+    .gigantic {
+        .hide;
+    }
+
+    .large {
+        .hide;
+    }
+
+    .medium {
+        .hide;
+    }
+
+    .small {
+        .show;
+    }
+
+    .tiny {
+        .hide;
+    }
+}
+
+@media (max-width: 400px) {
+    .gigantic {
+        .hide;
+    }
+
+    .large {
+        .hide;
+    }
+
+    .medium {
+        .hide;
+    }
+
+    .small {
+        .hide;
+    }
+
+    .tiny {
+        .show;
+    }
+}

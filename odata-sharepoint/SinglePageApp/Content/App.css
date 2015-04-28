@@ -1,0 +1,37 @@
+﻿.deleteButton {
+    cursor:pointer
+}
+
+.editButton {
+    cursor:pointer
+}
+
+input:invalid {
+    color:#ccc;
+    border:1px solid #900;
+}
+
+input:required {
+    border:1px solid #900;
+}
+
+input:valid {
+    border:1px solid #000;
+    color: #000;
+}
+
+input:valid + .error {
+    visibility:hidden;
+}
+
+input:invalid + .error {
+    visibility:visible;
+}
+
+.error {
+    position:relative;
+    display:block;
+    font-style:italic;
+    font-size:8pt;
+    color:#900;
+}

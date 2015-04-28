@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="DefaultPageEvents.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.8.2.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.8.2.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.8.2.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="knockout-2.3.0.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="knockout-2.3.0.debug.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="wingtip.contacts.model.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="wingtip.contacts.data.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="wingtip.contacts.viewmodel.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="EditPageEvents.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="AddPageEvents.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

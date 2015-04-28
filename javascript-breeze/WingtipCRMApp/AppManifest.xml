@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="WingtipCRMApp"
+     ProductID="{bfd4ddb9-8dc5-42c4-ac09-bd92ff0fa83d}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>Wingtip CRM App</Title>
+    <StartPage>https://wingtipcrmapp.azurewebsites.net/?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="a3d0feb8-e15e-4234-9bee-cca0e57be28d" />
+  </AppPrincipal>
+</App>

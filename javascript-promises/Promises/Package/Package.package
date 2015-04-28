@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="d1217d17-8770-4ece-9541-7525ab3f915e" 
+        solutionId="d1217d17-8770-4ece-9541-7525ab3f915e" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Promises"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="f95488a9-5892-409b-9c38-d59b4560e837" />
+  </features>
+</package>

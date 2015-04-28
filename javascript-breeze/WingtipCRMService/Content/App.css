@@ -1,0 +1,133 @@
+﻿.ms-siteicon-a {
+  background-image: url(images/SiteIcon.gif);
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+}
+
+.ms-siteicon-img {
+  display: none;
+}
+
+.ms-core-siteTitle span a {
+  font-size: 18px;
+}
+
+#customersTable {
+  background-color: #999;
+  border-collapse: collapse;
+}
+
+#customersTable td {
+  color: #222;
+  border: 1px black solid;
+  padding: 4px;
+  background-color: White;
+  border-collapse: collapse;
+}
+
+
+#customersTable thead td {
+  background-color: #333;
+  color: White;
+}
+
+
+
+#toolbar {
+	margin: 4px;
+	padding: 8px;
+	background-color: #ccc;
+}
+
+
+#results {
+	padding: 8px;
+	font-size: 12px;
+}
+
+#results table {
+  margin: 8px
+}
+
+#results table, #results table td {
+	border-collapse: collapse;
+	border: 1px #444 solid;
+	padding: 2px 8px 2px 4px;
+	font-size: 20px;
+}
+
+#results h2 {
+	font-size: 18px;
+	color: #999;
+	border-bottom: 1px solid #999;
+	margin-top: 8px;
+	margin-bottom: 4px;
+}
+
+.ms-dialog #s4-ribbonrow {
+  display: none;
+}
+
+.ms-dlgTitle {
+  background-image: url("images/logo16.gif");
+  background-repeat: no-repeat;
+  background-position: 8px, 4px;
+  background-color: black;
+  padding: 1px;
+}
+
+h1.ms-dlgTitleText {
+  margin-left: 28px;
+  margin-top: 4px;
+}
+
+.ms-dlgTitle h1 {
+	font-size: 1.4em;
+  color:  white;
+}
+
+#dlgTitleBtns {
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
+.ms-dlgTitle {
+	padding-bottom: 4px;
+	padding-left: 8px;
+}
+
+.ms-dlgTitle h1 {
+	font-size: 1.8em;
+}
+
+
+.dialog_input_section {
+	padding-top: 4px;
+}
+
+.dialog_input_section_title {
+	margin-top: 8px;
+	color: black;
+	border-bottom: solid black 1px;
+	margin-bottom: 8px;
+}
+
+.dialog_button_section {
+	margin-top: 16px;
+	border-top: solid #CCC 2px;
+	padding-top: 8px;
+	text-align: right;
+}
+
+.ms-dlgContent {
+	padding-bottom: 2px;
+}
+
+
+.ms-dlgFrameContainer {
+	padding-top: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+}

@@ -1,0 +1,135 @@
+﻿.show {
+    font-size: 20pt;
+    color: #0094ff;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+@media (max-width: 2000px) {
+    .gigantic {
+        font-size: 20pt;
+        color: #0094ff;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        visibility: visible;
+    }
+
+    .large {
+        visibility: hidden;
+    }
+
+    .medium {
+        visibility: hidden;
+    }
+
+    .small {
+        visibility: hidden;
+    }
+
+    .tiny {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 1000px) {
+    .gigantic {
+        visibility: hidden;
+    }
+
+    .large {
+        font-size: 20pt;
+        color: #0094ff;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        visibility: visible;
+    }
+
+    .medium {
+        visibility: hidden;
+    }
+
+    .small {
+        visibility: hidden;
+    }
+
+    .tiny {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 800px) {
+    .gigantic {
+        visibility: hidden;
+    }
+
+    .large {
+        visibility: hidden;
+    }
+
+    .medium {
+        font-size: 20pt;
+        color: #0094ff;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        visibility: visible;
+    }
+
+    .small {
+        visibility: hidden;
+    }
+
+    .tiny {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    .gigantic {
+        visibility: hidden;
+    }
+
+    .large {
+        visibility: hidden;
+    }
+
+    .medium {
+        visibility: hidden;
+    }
+
+    .small {
+        font-size: 20pt;
+        color: #0094ff;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        visibility: visible;
+    }
+
+    .tiny {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 400px) {
+    .gigantic {
+        visibility: hidden;
+    }
+
+    .large {
+        visibility: hidden;
+    }
+
+    .medium {
+        visibility: hidden;
+    }
+
+    .small {
+        visibility: hidden;
+    }
+
+    .tiny {
+        font-size: 20pt;
+        color: #0094ff;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        visibility: visible;
+    }
+}

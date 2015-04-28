@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" />
+    <File Path="Scripts\wingtip.nested.js" Url="Scripts/wingtip.nested.js" />
+    <File Path="Scripts\wingtip.promises.js" Url="Scripts/wingtip.promises.js" />
+    <File Path="Scripts\jquery-2.1.0.min.map" Url="Scripts/jquery-2.1.0.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.0.min.js" Url="Scripts/jquery-2.1.0.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.0.js" Url="Scripts/jquery-2.1.0.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.0.intellisense.js" Url="Scripts/jquery-2.1.0.intellisense.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

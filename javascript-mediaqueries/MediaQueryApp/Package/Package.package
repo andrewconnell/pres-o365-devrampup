@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="0627e17c-af1a-4423-80e2-5188add57f07" 
+        solutionId="0627e17c-af1a-4423-80e2-5188add57f07" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="MediaQueryApp"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="fd4dfff2-7b57-42c2-95e4-f0d9871c0523" />
+  </features>
+</package>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\DefaultPageEvents.js" Url="Scripts/DefaultPageEvents.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.8.2.min.js" Url="Scripts/jquery-1.8.2.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.8.2.js" Url="Scripts/jquery-1.8.2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.8.2.intellisense.js" Url="Scripts/jquery-1.8.2.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\knockout-2.3.0.js" Url="Scripts/knockout-2.3.0.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\knockout-2.3.0.debug.js" Url="Scripts/knockout-2.3.0.debug.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\wingtip.contacts.model.js" Url="Scripts/wingtip.contacts.model.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\wingtip.contacts.data.js" Url="Scripts/wingtip.contacts.data.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\wingtip.contacts.viewmodel.js" Url="Scripts/wingtip.contacts.viewmodel.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\EditPageEvents.js" Url="Scripts/EditPageEvents.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\AddPageEvents.js" Url="Scripts/AddPageEvents.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
